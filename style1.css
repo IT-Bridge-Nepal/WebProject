@@ -10,13 +10,16 @@ html{
     scroll-behavior: smooth;
 }
 /* navbar section */
+.bgcolor.scrolled{
+    background-color: #000000;
+}
 nav{
     background-color: #222 !important;
   opacity: 0.4;
 
 }
 #navbarSupportedContent a{
-    color: aliceblue;
+    color: white;
 }
 .navbar {
     position: -webkit-sticky;
@@ -30,7 +33,7 @@ nav{
 }
    
 .navbar-collapse{
-    margin-left: 130px;
+    margin-left: 200px;
 }
 
 .navbar-nav .nav-item a{
@@ -91,7 +94,7 @@ font-size: 30px;
 }
 .carousel-caption h3 {
     padding: 70px;
-    color: #222;
+    color: whitesmoke;
 }
 .btn-one{
     background-color:cadetblue;
