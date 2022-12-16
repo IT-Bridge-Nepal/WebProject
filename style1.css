@@ -113,17 +113,13 @@ font-size: 30px;
   }
   @keyframes text{
     0%{
-        color: black;
-        margin-bottom: 30px;
+        transform: translateX(-100px);
+        opacity: 0;
     }
     35%{
-        letter-spacing: 25px;
-        margin-bottom: 30px;
+        transform: translateX(-100px);
+        opacity: 0;
     }
-    /* 85%{
-        letter-spacing: 25px;
-        margin-bottom: 30px;
-    } */
   }
 
 
@@ -145,11 +141,23 @@ font-size: 30px;
     font-weight: 500;
     height: 50px;
     padding: 20px 0px 50px 0px;
+    animation: text 3s 1;
 }
 .footer-box p:hover{
     color: white;
   text-shadow: 1px 3px 5px #000000;
 }
+@keyframes text{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    35%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+  }
+
 #footer{
     background-color: gray;
 }
