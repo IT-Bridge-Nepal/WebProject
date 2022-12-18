@@ -42,12 +42,26 @@ html{
 font-size:18px;
 color: black !important;
 font-weight: bolder;
+position: relative;
+text-decoration: none;
+letter-spacing: 0 10px;
 
 }
-#navbarSupportedContent a:hover{
-   
-    color: gray !important;
+.navbar-nav .nav-item a:hover{
     
+    color:gray !important;
+}
+ a:after{
+        content: "";
+        position: absolute;
+        background-color:cadetblue;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -5px;
+    }
+     a:hover:after{
+        width: 100%;
     }
 
 .navbar .nav-item{
@@ -146,6 +160,7 @@ font-size: 30px;
 .footer-box p:hover{
     color: white;
   text-shadow: 1px 3px 5px #000000;
+  
 }
 @keyframes text{
     0%{
