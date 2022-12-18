@@ -11,7 +11,7 @@ html{
 }
 /* navbar section */
 .bgcolor.scrolled{
-    background-color:white;
+    background-color:cadetblue;
     
 }
 /* nav{
@@ -28,9 +28,8 @@ html{
     top: 0;
 }
 .img{
-    margin-top:-15px;
     margin-left: 100px;
-  
+
 }
    
 .navbar-collapse{
@@ -51,16 +50,16 @@ letter-spacing: 0 10px;
     
     color:gray !important;
 }
- a:after{
+.navbar-nav .nav-item a:after{
         content: "";
         position: absolute;
-        background-color:cadetblue;
+        background-color:black;
         height: 3px;
         width: 0;
         left: 0;
         bottom: -5px;
     }
-     a:hover:after{
+.navbar-nav .nav-item a:hover:after{
         width: 100%;
     }
 
@@ -92,21 +91,10 @@ font-size: 30px;
 .search .fa-search{
     border-left: 2px solid white;
 }
-.my-nav{
-  position: absolute;
-  width: 100%;
-  z-index:999;  
-  background: none;
-  border: 0;
- border-radius: 0;
-}
+
 /* navbar end section */
 /* carousel section */
-.my-carousel
-{
-    position: absolute;
-    top: -110px;
-}
+
 .carousel-caption h3 {
     padding: 80px;
     color: white;
@@ -149,8 +137,7 @@ background-color: rgb(241,179,85);
 
 .footer-box{
     text-align: center;
- margin-top: -140px;
- height: 60px;
+height: 50px;
 }
 .footer-box p{
     background-color:cadetblue ;
