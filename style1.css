@@ -114,28 +114,33 @@ font-size: 30px;
     font-weight: bolder;
     animation: text 3s 1;
 
+    @keyframes text{
+        0%{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        35%{
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+      }
+    
 }
-.btn-one{
+.carousel-caption .btn-one{
     background-color:cadetblue;
     border: none;
-    border-radius: 30px;
-    font-size: 30px;
-    height: 50px;
-    width: 180px;
+    border-radius: 100px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
     color: white;
-    margin: 30px;
-  }
-  @keyframes text{
-    0%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    35%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-  }
-
+    margin: 20px;
+    box-shadow:  rgb(44 187 99 / 20%) 0 -25px 18px -14px inset, rgb(44 187 99 / 15%) 0 1px 2px, rgb(44 187 99 / 15%) 0 2px 4px, rgb(44 187 99 / 15%) 0 4px 8px, rgb(44 187 99 / 15%) 0 8px 16px, rgb(44 187 99 / 15%) 0 16px 32px;
+}
+.carousel-caption .btn-one:hover{
+background-color: rgb(241,179,85);
+}
+  
 
 
 
